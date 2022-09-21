@@ -81,8 +81,8 @@ print(raffle1)
 #################################################booleans######################################################
 # booleans
 # a boolean can only have 2 values -- true or False
-# my_bool = 5 > 4
-#print(my_bool)
+my_bool = 5 > 4
+print(my_bool)
 
 # > greater
 # < less
@@ -92,19 +92,20 @@ print(raffle1)
 # != different or not equal to
 
 # you can also construct booleans to see if values ar in a variable or not found
-# my_ bool = 5 in my_list
-# my_bool = 5 not in my_list
+#my_bool = 5 not in my_list
+#This messed up
 
 # so we can see if we can make logical decisions if something is true or not
-# var1 = True
-# var2 = False
-# print(type(var1))
-# print(var1)
 
-# list = [1,2,3,4,5,6]
-# control = 5 in list
-# print(type(control))
-# print(control)
+var1 = True
+var2 = False
+print(type(var1))
+print(var1)
+
+list = [1,2,3,4,5,6]
+control = 5 in list
+print(type(control))
+print(control)
 
 # Booleans Practice
 
@@ -112,8 +113,10 @@ print(raffle1)
 
 # Check if 17834/34 is greater than 87*56 and print the boolean result to the screen using print()
 
+boole = 17834/34 < 87*56
+print(boole)
 # Check if the square root of 25 is equal to 5 and display the result (boolean) on the screen using print
-
+ 
 
 
 #############################################next week ################################################
@@ -121,13 +124,21 @@ print(raffle1)
 
 # dictionaries
 # another data structure that stores data that can be unstructured
-# employee = {'first_name': 'steven',
-#             'last_name': 'pretti',
-#              'weight': 37.2,
-#               'size': 5.77
-#              'height:' 6}
-# print(employee['weight'])
+employee = {'first_name': 'steven',
+            'last_name': 'pretti',
+             'weight': 37.2,
+              'size': 5.77,
+             'height' : 6}
+print(employee['weight'])
 
+warrior = { 'made_by' : 'hbomax',
+       'realease_date' : 2018,
+        'budget' : '24million',
+        'rotten_tomatoes' : 'fresh'}
+print(warrior['budget'])
+warrior['score'] = 78
+print(warrior.items())
+print(warrior.keys())
 #challenge 1
 # Create a dictionary called my_dict that stores the following information about a person:
 # name: Karen
@@ -135,6 +146,11 @@ print(raffle1)
 # age: 35
 # occupation: Journalist
 # The names of the keys and values must be equal to the ones indicated above.
+my_dict = { 'name' : 'karen',
+           'surname' : 'Jurgens',
+           'age' : 35, 
+           'occupation' : 'Journalism'}
+print(my_dict)
 
 #challenge 2:
 # Use print to returns the second item of the list called points2, inside the following dictionary.
