@@ -40,11 +40,13 @@ my_tuple = (1, 2, 3, 2, 3, 1, 3, 2, 3, 3, 3, 1, 3, 2, 2, 1, 3, 2)
 # Convert the following tuple to a list, and store it in a variable called my_list.
 
 my_tuple = (1, 2, 3, 2, 3, 1, 3, 2)
-
+my_list = list(my_tuple)
+print(my_list)
 #Extract the elements of the following tuple into four variables: a, b, c, d
 
 my_tuple = (1, 2, 3, 4)
-
+a, b, c, d = my_tuple
+print(a,b,c,d)
 
 #################################################sets######################################################
 
